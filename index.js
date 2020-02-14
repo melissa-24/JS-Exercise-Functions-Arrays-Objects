@@ -84,7 +84,7 @@ function makeSmartPerson(name) {
   const smart = {
     name: name,
     sum: (a, b) => a + b,
-    speak: function() {return `Hello, my name is ${this.name}`;}
+    speak: function() {return `Hello, my name is ${name}`;}
   }
   return smart;
 }
